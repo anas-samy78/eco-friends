@@ -31,54 +31,54 @@ document.getElementById("languageSwitcher").addEventListener("change", function 
 // الاسئلة التفاعلية بدعم الترجمة
 let quizData = [
   {
-    q: { ar: "شربت عصير ومفيش سلة قريبة؟", en: "You drank juice and there’s no trash bin nearby?" },
-    good: { ar: "تحتفظ بها", en: "Keep it until a bin" },
+    q: { ar: "شربتَ عصيرًا ولا توجد سلة مهملات قريبة؟", en: "You drank juice and there’s no trash bin nearby?" },
+    good: { ar: "تحتفظ بها حتى تجد سلة", en: "Keep it until a bin" },
     bad: { ar: "ترميها في الشارع", en: "Throw it on the street" }
   },
   {
-    q: { ar: "لقيت نور شغال ومفيش حد؟", en: "You see a light on and no one around?" },
-    good: { ar: "تطفيه", en: "Turn it off" },
-    bad: { ar: "تسيبه", en: "Leave it on" }
+    q: { ar: "وجدتَ ضوءًا مُشغَّلًا ولا يوجد أحد؟", en: "You see a light on and no one around?" },
+    good: { ar: "تُطفِئه", en: "Turn it off" },
+    bad: { ar: "تتركه مُشغَّلًا", en: "Leave it on" }
   },
   {
-    q: { ar: "عايز تشتري شنطة؟", en: "Want to buy a bag?" },
-    good: { ar: "قماش", en: "Cloth bag" },
-    bad: { ar: "بلاستيك", en: "Plastic bag" }
+    q: { ar: "تريد شراء حقيبة؟", en: "Want to buy a bag?" },
+    good: { ar: "حقيبة قماشية", en: "Cloth bag" },
+    bad: { ar: "حقيبة بلاستيكية", en: "Plastic bag" }
   },
   {
-    q: { ar: "لقيت شاطئ مليان قمامة؟", en: "You find a beach full of trash?" },
-    good: { ar: "تنضف جزء", en: "Clean part of it" },
-    bad: { ar: "تتجاهل", en: "Ignore it" }
+    q: { ar: "وجدتَ شاطئًا مليئًا بالقمامة؟", en: "You find a beach full of trash?" },
+    good: { ar: "تُنظِّف جزءًا منه", en: "Clean part of it" },
+    bad: { ar: "تتجاهله", en: "Ignore it" }
   },
   {
-    q: { ar: "معاك بطارية قديمة؟", en: "Do you have old batteries?" },
-    good: { ar: "تعيد تدويرها", en: "Recycle them" },
-    bad: { ar: "ترميها عادي", en: "Throw them away normally" }
+    q: { ar: "هل لديك بطاريات قديمة؟", en: "Do you have old batteries?" },
+    good: { ar: "تُعيد تدويرها", en: "Recycle them" },
+    bad: { ar: "ترميها بشكل عادي", en: "Throw them away normally" }
   },
   {
-    q: { ar: "رايح مشوار قريب؟", en: "Going a short trip?" },
-    good: { ar: "تمشي", en: "Walk" },
-    bad: { ar: "تركب عربية", en: "Take the car" }
+    q: { ar: "ذاهب في مشوار قريب؟", en: "Going a short trip?" },
+    good: { ar: "تمشي على الأقدام", en: "Walk" },
+    bad: { ar: "تستخدم السيارة", en: "Take the car" }
   },
   {
-    q: { ar: "هتغسل عربيتك؟", en: "Going to wash your car?" },
-    good: { ar: "مياه قليلة", en: "Use less water" },
-    bad: { ar: "تسيب الخرطوم مفتوح", en: "Leave the hose open" }
+    q: { ar: "هل ستغسل سيارتك؟", en: "Going to wash your car?" },
+    good: { ar: "تستخدم كمية قليلة من الماء", en: "Use less water" },
+    bad: { ar: "تترك الخرطوم مفتوحًا", en: "Leave the hose open" }
   },
   {
-    q: { ar: "شفت شجرة صغيرة؟", en: "You see a small tree?" },
+    q: { ar: "رأيت شجرة صغيرة؟", en: "You see a small tree?" },
     good: { ar: "تسقيها", en: "Water it" },
     bad: { ar: "تقطعها", en: "Cut it" }
   },
   {
-    q: { ar: "هتطبع ورق؟", en: "Going to print paper?" },
-    good: { ar: "الوجهين", en: "Double-sided" },
-    bad: { ar: "وجه واحد", en: "Single side" }
+    q: { ar: "هل ستطبع أوراقًا؟", en: "Going to print paper?" },
+    good: { ar: "الطباعة على الوجهين", en: "Double-sided" },
+    bad: { ar: "الطباعة على وجه واحد", en: "Single side" }
   },
   {
-    q: { ar: "هتشتري مياه؟", en: "Going to buy water?" },
-    good: { ar: "زجاجة reusable", en: "Reusable bottle" },
-    bad: { ar: "بلاستيك كل مرة", en: "Plastic every time" }
+    q: { ar: "هل ستشتري ماءً؟", en: "Going to buy water?" },
+    good: { ar: "زجاجة قابلة لإعادة الاستخدام", en: "Reusable bottle" },
+    bad: { ar: "زجاجة بلاستيكية في كل مرة", en: "Plastic every time" }
   }
 ];
 
